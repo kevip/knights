@@ -1,0 +1,173 @@
+body{
+	
+	width: 480px;
+	
+	border:3px solid;
+}
+#footer{
+	background: black;
+	height: 100%;
+}
+header{
+	/*display:inline;*/
+	padding: 16 0 0 0;
+	background: #707070;
+	color:white;	
+	border-bottom: 2px solid brown;
+	
+}
+header figure, header img, header h4{
+	display:inline;
+	vertical-align: top;
+}
+header figure img{
+	height: 50px;	
+}
+header h4{
+
+}
+header img{
+	height: 16px;
+}
+nav{
+	background: black;	
+}
+nav ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+nav ul li{
+	display: inline-block;		
+
+}
+nav ul li a{
+	color:peru;
+	display:block;
+	padding: 0.3em 1.3em;
+	text-decoration:none;
+}
+nav #ant{
+	margin-left: 0;
+	float:left;
+}
+nav #sgte{
+	margin-right:0;
+	float:right;
+}
+#destacados{
+	border-bottom: 2px solid 0;
+}
+#destacados article{
+	border-right:2px solid peru;
+	border-bottom:2px solid peru;
+	margin: 1em;
+	height: 100px;
+}
+#destacados article button{
+	float:right;
+}
+#destacados article button,#destacados article div{
+	display:inline-block;
+}
+#destacados article h3{
+	margin-bottom: 0px;
+	font-size: 30px;
+	margin-left:188px;
+}
+#destacados article .cont_items h4{
+	margin:0 0 10px 0;
+	font-size: 20px;
+}
+
+#destacados article .foto_disco{
+	float:left;
+}
+
+#destacados article .fecha{	
+	border: 2px solid peru;
+	margin-left:0.5em;
+	vertical-align: top;		
+}
+#destacados article .fecha h4{
+	font-size: 35px;	
+}
+#destacados article .fecha h4,#destacados article .fecha h5{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	text-align: center;
+}
+#noticias article{
+	border-right:2px solid peru;
+	border-bottom:2px solid peru;
+	margin: 1em;
+	height: 100px;
+}
+#noticias article button{
+	float:right;
+}
+#noticias article button, #noticias article div{
+	display:inline-block;
+}
+#noticias article h3{
+	margin: 0 0 0.6em 0;
+}
+#noticias article .fecha{	
+	border: 2px solid peru;
+	margin-left: 1em;
+	vertical-align: top;		
+}
+#noticias article .fecha h4{
+	font-size: 35px;	
+}
+#noticias article .fecha h4,#noticias article .fecha h5{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	text-align: center;
+}
+#noticias article .foto_evento{
+	float:left;
+}
+#noticias article .noticias_items{
+	margin:0 0 0 0;
+	padding: 0 0 0 0;
+}
+#noticias article .noticias_items h4{
+	margin: 0 0 1em 0;
+	padding: 0 0 0 0;
+}
+
+#txt_destacados, #txt_noticias{
+	padding: 0 0 0 0;
+	margin: 1em 0 0 0.5em;
+	color:gray;
+	display:inline-block;
+}
+.estrellas_dest img{
+	height:20px;
+	width: 70px;
+}
+.foto_disco img,.foto_evento img{
+	height: 100px;	
+	width: 180px;
+}
+.likes_dest{
+	height: 18px;
+}
+.btn_actualizar{
+	display: inline-block;
+	float:right;			
+	margin:1em 0 0 0.5em;
+}
+footer{
+	position: absolute;
+	bottom: 0;
+}
+footer div{
+	background: blue;
+	width: 100%;
+}
+footer div h1{
+
+	color: white;
+}
